@@ -1,8 +1,6 @@
 # 💫 Benim Hakkımda ;
 🌟 Merhaba, ben Emir! 👋  
-💻 Yazılım Geliştiricisi ve Öğrenci  
-📍 Konya'da yaşıyorum ve **Yerlem** adlı bir firmada stajyer olarak çalışıyorum.  
-🚀 Yazılım mühendisliği öğrencisiyim ve yazılım dünyasında sürekli kendimi geliştiriyorum.
+💻 Yazılım Geliştiricisi   
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/Nesqpsy)
