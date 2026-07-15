@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="Emircan Özen animasyonlu tanıtım">
+  <style>
+    text {
+      font-family: "JetBrains Mono", "Segoe UI", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      fill: #38bdf8;
+      text-anchor: middle;
+    }
+
+    .line {
+      opacity: 0;
+      animation: cycle 9s infinite ease
