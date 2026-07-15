@@ -1,0 +1,44 @@
+name: Breakout Katkı Oyununu Üret
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - profile-readme-game-mode
+    paths:
+      - README.md
+      - .github/workflows/breakout-workflow.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Repoyu indir
+        uses: actions/checkout@v4
+
+      - name: Breakout SVG dosyalarını üret
+        uses: cyprieng/github-breakout@v1.0.0
+        with:
+          github_username: ${{ github.repository_owner }}
+
+      - name: Üretilen dosyaları taşı
+        run: |
+          mkdir -p images
+          mv output/light.svg images/breakout-light.svg
+          mv output/dark.svg images/breakout-dark.svg
+
+      - name: Üretilen dosyaları kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/breakout-light.svg images/breakout-dark.svg
+          git commit -m "chore: Breakout katkı oyununu güncelle" || exit 0
+          git push
