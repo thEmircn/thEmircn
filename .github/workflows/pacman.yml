@@ -21,5 +21,24 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Repoyu indir
+        uses: actions/checkout@v4
+
       - name: Pac-Man katkı grafiğini üret
-        uses
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Üretilen dosyaları taşı
+        run: |
+          mkdir -p images
+          cp dist/pacman-contribution-graph.svg images/pacman-contribution-graph.svg
+          cp dist/pacman-contribution-graph-dark.svg images/pacman-contribution-graph-dark.svg
+
+      - name: Üretilen dosyaları kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/pacman-contribution-graph.svg images/pacman-contribution-graph-dark.svg
+          git commit -m "chore: Pac-Man katkı grafiğini güncelle" || exit 0
+          git push
