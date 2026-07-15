@@ -116,9 +116,9 @@ Gerçek hayattaki karmaşık operasyonları analiz eder; hızlı, güvenli, sür
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/output/pacman-contribution-graph.svg" />
-    <img width="100%" alt="Pac-Man GitHub katkı grafiği" src="https://raw.githubusercontent.com/thEmircn/thEmircn/output/pacman-contribution-graph.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/pacman-contribution-graph.svg" />
+    <img width="100%" alt="Pac-Man GitHub katkı grafiği" src="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/pacman-contribution-graph.svg" />
   </picture>
 </p>
 
