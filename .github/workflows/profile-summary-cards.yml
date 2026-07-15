@@ -21,4 +21,19 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Repository
+      - name: Repository'yi al
+        uses: actions/checkout@v4
+
+      - name: GitHub özet kartlarını üret
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: ${{ github.ref_name }}
+          UTC_OFFSET: 3
+          AUTO_PUSH: true
+          THEME: github_dark
+          ANIMATION: load
+          DURATION: 2
+          NAME: Emircan Özen
