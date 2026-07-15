@@ -23,20 +23,20 @@
 
 ---
 
-## `> ben_kimim`
+## `> whoami`
 
 ```typescript
 const emircan = {
-  unvan: "Yazılım Geliştiricisi",
-  konum: "Konya, Türkiye",
-  uzmanlık: [
+  role: "Yazılım Geliştiricisi",
+  location: "Konya, Türkiye",
+  focus: [
     "Ölçeklenebilir React ve TypeScript mimarileri",
     "Konum, harita, geocoding ve rotalama teknolojileri",
     "Güvenli Java ve Spring Boot arka uç sistemleri",
     "PostgreSQL, PostGIS ve veri odaklı uygulamalar",
     "Yapay zekâ destekli geliştirici otomasyonları",
   ],
-  yaklaşım: "Çalıştır. Temizle. Güçlendir. Ölçeklendir.",
+  principle: "Çalıştır. Temizle. Güçlendir. Ölçeklendir.",
 };
 ```
 
@@ -52,15 +52,15 @@ Gerçek hayattaki karmaşık operasyonları analiz eder; hızlı, güvenli, sür
 
 <div align="center">
 
-### Ön Yüz Geliştirme
+### Frontend
 
-<img src="https://skillicons.dev/icons?i=react,ts,js,vite,html,css,materialui&theme=dark" alt="Ön yüz teknolojileri" />
+<img src="https://skillicons.dev/icons?i=react,ts,js,vite,html,css,materialui&theme=dark" alt="Frontend teknolojileri" />
 
-### Arka Uç ve Veri
+### Backend & Data
 
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,python,postgres,redis&theme=dark" alt="Arka uç ve veri teknolojileri" />
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,python,postgres,redis&theme=dark" alt="Backend ve veri teknolojileri" />
 
-### Altyapı ve Geliştirme Araçları
+### Infrastructure & Tools
 
 <img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,vscode,postman,figma&theme=dark" alt="Altyapı ve geliştirme araçları" />
 
@@ -68,7 +68,7 @@ Gerçek hayattaki karmaşık operasyonları analiz eder; hızlı, güvenli, sür
 
 ---
 
-## Şu Anki Hedeflerim
+## Current Mission
 
 ```text
 01. Büyük React projelerinde sürdürülebilir ve modüler mimariler kurmak
@@ -83,42 +83,41 @@ Gerçek hayattaki karmaşık operasyonları analiz eder; hızlı, güvenli, sür
 
 ---
 
-## GitHub Komuta Merkezi
+## GitHub Command Center
 
 <div align="center">
 
-<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=thEmircn&theme=transparent" alt="GitHub profil özeti" />
+<img width="98%" src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="GitHub profil özeti" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=thEmircn&theme=transparent" alt="GitHub istatistikleri" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=thEmircn&theme=transparent&utcOffset=3" alt="Üretken çalışma saatleri" />
+<img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub istatistikleri" />
+<img width="49%" src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Üretken çalışma saatleri" />
 
-<img width="65%" src="https://streak-stats.demolab.com?user=thEmircn&theme=transparent&hide_border=true&ring=38BDF8&fire=F97316&currStreakLabel=38BDF8" alt="GitHub katkı serisi" />
-
-</div>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=thEmircn&bg_color=00000000&color=94A3B8&line=38BDF8&point=FFFFFF&area=true&area_color=0EA5E9&hide_border=true" alt="GitHub katkı hareketleri" />
-
----
-
-## 3B Katkı Dünyası
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/profile-3d-contrib/profile-night-rainbow.svg" alt="Üç boyutlu GitHub katkı takvimi" />
+<img width="49%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Depolara göre programlama dilleri" />
+<img width="49%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Commitlere göre programlama dilleri" />
 
 </div>
 
 ---
 
-## Katkı Oyunları
+## 3D Contribution World
+
+<div align="center">
+
+<img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Üç boyutlu GitHub katkı takvimi" />
+
+</div>
+
+---
+
+## Contribution Games
 
 ### Pac-Man
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/pacman-contribution-graph.svg" />
-    <img width="100%" alt="Pac-Man GitHub katkı grafiği" src="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/pacman-contribution-graph.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./images/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./images/pacman-contribution-graph.svg" />
+    <img width="100%" alt="Pac-Man GitHub katkı grafiği" src="./images/pacman-contribution-graph.svg" />
   </picture>
 </p>
 
@@ -126,15 +125,15 @@ Gerçek hayattaki karmaşık operasyonları analiz eder; hızlı, güvenli, sür
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/breakout-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/breakout-light.svg" />
-    <img width="100%" alt="Breakout GitHub katkı oyunu" src="https://raw.githubusercontent.com/thEmircn/thEmircn/profile-readme-game-mode/images/breakout-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./images/breakout-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./images/breakout-light.svg" />
+    <img width="100%" alt="Breakout GitHub katkı oyunu" src="./images/breakout-light.svg" />
   </picture>
 </p>
 
 ---
 
-## Terminal Modu
+## Terminal Mode
 
 <div align="center">
 
