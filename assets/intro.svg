@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="Emircan Özen animasyonlu tanıtım">
+  <style>
+    text {
+      font-family: "JetBrains Mono", "Segoe UI", Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      fill: #38bdf8;
+      text-anchor: middle;
+    }
+
+    .line {
+      opacity: 0;
+      animation: cycle 9s infinite ease-in-out;
+    }
+
+    .line-1 { animation-delay: 0s; }
+    .line-2 { animation-delay: 3s; }
+    .line-3 { animation-delay: 6s; }
+
+    @keyframes cycle {
+      0%, 5% { opacity: 0; transform: translateY(6px); }
+      12%, 28% { opacity: 1; transform: translateY(0); }
+      34%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line { animation: none; opacity: 0; }
+      .line-1 { opacity: 1; }
+    }
+  </style>
+
+  <text class="line line-1" x="450" y="39">React ve TypeScript ile ölçeklenebilir arayüzler</text>
+  <text class="line line-2" x="450" y="39">Java ve Spring Boot ile güçlü backend sistemleri</text>
+  <text class="line line-3" x="450" y="39">Harita, rotalama ve yapay zekâ otomasyonları</text>
+</svg>
